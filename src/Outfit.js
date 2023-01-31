@@ -37,7 +37,7 @@ function Outfit() {
                                 <img src={image} alt="outfit" width="200px" height="300px" />
                             </div>
                             <div className="container">
-                                <button className="btnRemove" disabled={outfits.length === 1 ? true : false} className="btnRemove" onClick={() => removeOutfit(id)}>Remove</button>
+                                <button className="btnRemove" disabled={outfits.length === 1 ? true : false} onClick={() => removeOutfit(id)}>Remove</button>
                             </div>
                         </div>
                     
